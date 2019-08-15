@@ -1,0 +1,22 @@
+{
+  "name": "imdb-search",
+  "version": "1.0.0",
+  "description": "A simple app that searches for a movie and displays information about the movie from IMDB.",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "imdb",
+    "movies"
+  ],
+  "author": "Rayyan Mohammed",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "hbs": "^4.0.4",
+    "nodemon": "^1.19.1",
+    "request": "^2.88.0"
+  }
+}
