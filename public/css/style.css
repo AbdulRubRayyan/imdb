@@ -10,12 +10,25 @@ h1{
     margin-top: 5rem;
 }
 
+img {
+    
+    margin-left: 30px;
+    
+}
+
 .column {
     height: auto;
     
+}
+
+#details{
+    margin-left: 30px;
 }
 
 .footer-text {
     text-align: center;
 }
 
+.container {
+    margin-left: 20px;
+}
