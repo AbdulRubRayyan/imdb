@@ -24,7 +24,7 @@ app.get('/', (req, res) => {
 app.get('/movie', (req, res) => {
     if(!req.query.title) {
         res.send({
-            error: 'You have to enter a title, '
+            error: 'You have to enter a title '
         })
     } else {
         searchMovie(req.query.title, (error, title, genre, year, actors, director, plot, poster) => {
